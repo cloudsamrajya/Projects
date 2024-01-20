@@ -1,0 +1,103 @@
+h3{
+    text-align: center;
+    padding: 10px;
+}
+
+.x{
+    background-color: whitesmoke;
+}
+.x{
+   margin: auto;
+
+    border: 1px solid;
+    
+    text-align: center;
+    width: 400px;
+    padding: 100px;
+   
+    height: 450px; 
+}
+.a,.b,.c,.d,.e,.f,.g,.h,.n{
+    font-size: 20px;
+  
+    
+}
+.a{
+    margin-right: 10px;
+    padding: 20px;
+}
+.b{
+    margin-right: 30px;
+    padding: 1px;
+}
+.c{
+    margin-right: 20px;
+    padding: 7px;
+}
+#phone{
+    margin-right: 15px;
+    
+}
+.d{
+    padding: 20px;
+    margin-right: 10px;
+}
+.e{
+    margin-right: 10px;
+   padding: 17px;
+}
+#gender{
+    margin-right: 35px;
+}
+.f{
+   margin-right: 12px;
+   padding: 6px;
+}
+.n{
+    padding: 20px;
+    margin-left: 58px;
+}
+
+#fm{
+    margin-right: 57px;
+height: 30px;
+padding: 5px;
+}
+.g{
+   margin-left: 75px;
+   padding: 5px;
+}
+#cmt{
+    padding: 20px;
+    margin-left: 50px;
+}
+#name,#address,#phone,#gender{
+    padding: 10px;
+}
+.heading{
+    background-color: whitesmoke;
+
+}
+.submit{
+    border-radius: 50px;
+    transition: transform 0.3s;
+}
+.submit:hover{
+    background-color: red;
+    color: white;
+animation: bubble 0.6s ease-out;
+}
+@keyframes bubble {
+    0%{
+        transform:scale(1)
+
+    }
+    50%{
+        transform:scale(1.1);
+
+    }
+    
+    100%{
+        transform: scale(1);
+    }
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administration Form</title>
+    <link rel="stylesheet" href="ad.css">
+    <script src="form.js"></script>
+  <div class="heading">
+    <h3><br>College Administration Form CCT, Devinagar, Butwal</h3>
+        <hr>
+  </div>
+</head>
+
+<body style="background-color: lightgreens;">
+    <section class="x">
+        <form name="admin" action="new.php"  method="post">
+<label for="name" class="a">Name: </label>
+<input type="text" id="name"   name="name"  placeholder="Enter Your Name">
+<br>
+<br>
+<label for="address" class="b">Address: </label>
+<input type="text" id="address" name="address" placeholder="Enter Your Address">
+<br>
+<br>
+<label for="phone" class="c">Phone No: </label>
+<input type="number" name="phone" id="phone" placeholder="Enter Your Phone Number">
+
+<br>
+<br>
+<label for="level" class="d" >Level:</label>
+
+<input type="checkbox" name="degree" id="bachelor" name="bachelor" value="Bachelor">
+<label for="bachelor" >Bachelor</label>
+<input type="checkbox" name="degree" id="see" value="+2">
+<label for="+2" name ="+2">+2</label>
+<input type="checkbox" name="degree" id="see" value="SEE">
+<label for="see">SEE</label>
+<br>
+<br>
+<label for="gender" class="e">Gender: </label>
+<select name="gender"id="gender">
+<option name="gender" hidden>Select Your Gender</option>
+<option value="m">Male</option>
+<option value="f">Female</option>
+<option value="o">Other</option>
+</select>
+<br>
+<br>
+<label for="faculty" class="f">Faculty: </label>
+<input type="radio" name="faculty" id="bca" value="BCA">
+<label for="bca">BCA</label>
+<input type="radio" name="faculty" id="bba" value="BBA">
+<label for="bba">BBA</label>
+<input type="radio" name="faculty" id="bcis" value="BCIS">
+<label for="bcis">BCIS</label><br><br>
+<label for="fm" class="n">Email: </label>
+<input type="text" id="fm" name="email"  placeholder="Enter Email">
+<br>
+
+<br>
+<label for="photo" class="g">Photo:</label>
+<input type="file" id="photo">
+<br><br>
+<label for="cmt" class="h">Why do you want to choose this faculty?</label>
+<br><br>
+<input type="text" id="cmt">
+<input type="submit" name="submit" class="submit">
+
+</form>
+    </section>
+
+
+
+
+
+
+
+</body>
+</html>
